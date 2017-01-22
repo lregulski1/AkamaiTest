@@ -5,9 +5,10 @@
     <classes>
       <class name="com.akamai.tests.Search_Test_Jobs">
         <methods>
-          <include name="loadPage"/>
           <include name="setup"/>
-          <include name="filloutSearchBox"/>
+          <include name="terdown"/>
+          <include name="checkNumberOfJobsPosted"/>
+          <include name="checkNumberOfResults"/>
         </methods>
       </class> <!-- com.akamai.tests.Search_Test_Jobs -->
     </classes>
